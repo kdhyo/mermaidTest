@@ -2,7 +2,7 @@
 
 ## ERD
 ``` mermaid
-erDiagram;
+erDiagram
     MOVIE ||--o{ MOVIE-TIMES : ""
     MOVIE {
         id id PK "영화"
