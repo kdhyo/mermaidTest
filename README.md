@@ -66,7 +66,6 @@ erDiagram
         string type "결제 타입 - 예) 네이버페이, 카카오페이"
         string state "상태 - 완료/환불"
         string price "결제 금액"
-        string 
         datetime created_dt "결제일시"
         datetime updated_dt "수정일시"
     }
