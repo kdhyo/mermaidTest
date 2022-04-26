@@ -47,7 +47,7 @@ erDiagram
         id movie_times_id FK "상영시간표 ID"
         string ticket_number "티켓 번호"
         string ticket_status "상태 - 구매가능/예약진행중/판매완료"
-        int price "가격"
+        int ticket_price "가격"
         datetime created_dt "등록일시"
         datetime updated_dt "수정일시"
     }
@@ -65,7 +65,7 @@ erDiagram
         id user_id FK "유저ID"
         string type "결제 타입 - 예) 네이버페이, 카카오페이"
         string payment_status "상태 - 완료/환불"
-        string price "결제 금액"
+        string total_price "결제 금액"
         datetime created_dt "결제일시"
         datetime updated_dt "수정일시"
     }
