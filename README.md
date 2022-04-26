@@ -29,7 +29,7 @@ erDiagram
         datetime created_dt "등록일시"
         datetime updated_dt "수정일시"
     }
-    MOVIE_TIMES ||--o{ TICKET : ""
+    MOVIE_TIMES |--o{ TICKET : ""
     MOVIE_TIMES {
         id movie_times_id PK "상영시간표 ID"
         id movie_id FK "영화 ID"
